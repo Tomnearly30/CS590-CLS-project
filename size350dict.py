@@ -1,3 +1,5 @@
+### This script is for protein size evaluation of protein database ###
+### output format: dictionary  in python ###
 import sys
 
 ### open file ###
