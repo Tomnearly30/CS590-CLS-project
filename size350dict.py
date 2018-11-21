@@ -1,5 +1,3 @@
-### This script is for protein size evaluation of protein database ###
-### output format: dictionary  in python ###
 import sys
 
 ### open file ###
@@ -30,6 +28,10 @@ def sizeevaluation(dict):
 def countgenenumber(dict):
     return len([k for k, v in dict.items() if len(v) >= 0])
 
+### cyc content evaluation, Now standard is 10% of whol sequence###
+
+def cysevaluation(dict):
+    return {k:v for k, v in dict.items() if v.count('C')/len(v) >= 0.1}
 
 ### main part ###
 
@@ -48,7 +50,12 @@ c = sizeevaluation(b)
 
 print(c)
 
+d = cysevaluation(c)
+
+print(d)
+
 print(countgenenumber(b))
 print(countgenenumber(c))
+print(countgenenumber(d))
 
 
