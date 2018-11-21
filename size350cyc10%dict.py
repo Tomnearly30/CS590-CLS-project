@@ -28,7 +28,7 @@ def sizeevaluation(dict):
 def countgenenumber(dict):
     return len([k for k, v in dict.items() if len(v) >= 0])
 
-### cyc content evaluation, Now standard is 10% of whol sequence###
+### cyc content evaluation, Now standard is 10% of whole sequence###
 
 def cysevaluation(dict):
     return {k:v for k, v in dict.items() if v.count('C')/len(v) >= 0.1}
