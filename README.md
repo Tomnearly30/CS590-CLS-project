@@ -7,11 +7,13 @@
 
 #  The Features used for here are: amino acid number within 300 and cys counts >= 4, which you can alter to fit your own purpose.
 
-# Run under Unix or Linux environment. Must preinstall "signalp" and put  "EffectorPrediction.py" in the same directory as "signalp".
-# Before running, read "signalp" instruction and set path properly.
+# Run under Unix or Linux environment. Must preinstall "signalp"
+# You can download "signalp" from http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp.
+
+# Before running, You'll need to unzip signalp-4.1f.Linux.tar.gz on your local server. Then Read "signalp-4.1.readme". Use vim to open "signalp", set the path as your install path and change "max number of sequences per run" into 30000.
+# Put "EffectorPrediction.py" and proteindatabase.fasta into "signalp" install directory.
 # When running "EffectorPrediction.py", use the format like:
-#                               >Python EffectorPrediction.py aaa.fasta tempOUTPUT finalOUTPUT 
-# And be sure to have "EffectorPrediction.py" and proteindatabase.fasta in the same fold,too.
+#                               >Python EffectorPrediction.py proteindatabase.fasta tempOUTPUT finalOUTPUT 
 
 ##### Second Part #####
 # "compare.py" is the comparison script for multiple sequence overall similarity comparison. 
