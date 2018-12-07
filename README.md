@@ -11,9 +11,9 @@
 # You can download "signalp" from http://www.cbs.dtu.dk/cgi-bin/nph-sw_request?signalp.
 
 # Before running, You'll need to unzip signalp-4.1f.Linux.tar.gz on your local server. Then Read "signalp-4.1.readme". Use vim to open "signalp", set the path as your install path and change "max number of sequences per run" into 30000.
-# Put "EffectorPrediction.py" and proteindatabase.fasta into "signalp" install directory.
+# Put "EffectorPrediction.py" and those two protein data file into "signalp" install directory.
 # When running "EffectorPrediction.py", use the format like:
-#                               >Python EffectorPrediction.py proteindatabase.fasta tempOUTPUT finalOUTPUT 
+#                               >Python EffectorPrediction.py GCF_000149555.1_ASM14955v1_protein.faa tempOUTPUT finalOUTPUT 
 
 ##### Second Part #####
 # "compare.py" is the comparison script for multiple sequence overall similarity comparison. 
