@@ -5,6 +5,6 @@
 
 # Run under Unix or Linux environment. Must preinstall "signalp" and put  "EffectorPrediction.py" in the same directory as "signalp".
 # Before running, read "signalp" instruction and set path properly.
-# When running "EffectorPrediction.py", use the format like 
-#                               "Python EffectorPrediction.py proteindatabase.fasta signalpoutput EffectorPredictionouput" 
+# When running "EffectorPrediction.py", use the format like:
+#                               >Python EffectorPrediction.py aaa.fasta output1 EffectorPredictionouput2 
 # And be sure to have "EffectorPrediction.py" and proteindatabase.fasta in the same fold,too.
