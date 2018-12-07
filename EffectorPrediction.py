@@ -109,13 +109,6 @@ for key in finaldict.keys():
 
 f.close()
 
-print(countgenenumber1(SPdict))
-
-print(countgenenumber2(cyssizedict))
-
-print(countgenenumber2(finaldict))
-
-
 
 
 
