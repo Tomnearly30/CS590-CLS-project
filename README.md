@@ -14,7 +14,7 @@
 # Put "EffectorPrediction.py" and those two protein data file into "signalp" install directory.
 # When running "EffectorPrediction.py", use the format like:
 #                               >Python EffectorPrediction.py GCF_000149555.1_ASM14955v1_protein.faa tempOUTPUT finalOUTPUT 
-
+# After running, you'll get a fasta file with all the predicted effector from the protein database you input.
 ##### Second Part #####
 # "compare.py" is the comparison script for multiple sequence overall similarity comparison. 
 # This python program accepts two fasta format files and gives the similarity score.
